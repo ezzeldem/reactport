@@ -13,7 +13,7 @@ const Box = styled.div`
   background: rgb(255, 224, 13);
   background: linear-gradient(
     190deg,
-    rgba(255, 224, 13, 1) 35%,
+    rgba(255, 224, 13, 1) 10%,
     rgba(254, 161, 39, 1) 100%
   );
   text-align: center;
@@ -27,7 +27,7 @@ const Box = styled.div`
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-image: url(${BackImg});
     background-size: cover;
     background-repeat: no-repeat;
